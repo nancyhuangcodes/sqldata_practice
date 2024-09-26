@@ -134,7 +134,7 @@ FROM(
 ) AS Cumulative;
 
 -- or use this method
-SELECT SUM(hours) AS "Cumulative Volunteer HOurs"
+SELECT SUM(hours) AS "Cumulative Volunteer Hours"
 FROM volunteer_hours;
 
 -- display the occassion each volunteer put up ore than 10 hours per visit
